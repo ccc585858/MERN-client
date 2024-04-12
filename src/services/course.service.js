@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://mern-client-g7ak.onrender.com/api/courses/";
+const API_URL = "https://mern-server-92oe.onrender.com/api/courses/";
 
 class CourseService {
   post(title, description, price) {

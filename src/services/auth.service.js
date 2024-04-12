@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://mern-client-g7ak.onrender.com/api/user";
+const API_URL = "https://mern-server-92oe.onrender.com/api/user";
 
 class AuthService {
   login(email, password) {
