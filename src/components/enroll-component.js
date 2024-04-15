@@ -28,7 +28,8 @@ const EnrollComponent = ({ currentUser, setCurrentUser }) => {
         navigate("/course");
       })
       .catch((e) => {
-        console.log(e);
+        window.alert(e.response.data);
+        navigate("/course");
       });
   };
 
